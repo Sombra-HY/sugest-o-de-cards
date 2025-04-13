@@ -1,0 +1,27 @@
+.caixa-mensagem {
+  background-color: #f0f0f0; /* cor normal */
+  padding: 16px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-weight: bold; /* fonte em negrito */
+  color: #333;
+  text-align: center;
+
+  /* tamanho fixo */
+  width: 200px;
+  height: 120px;
+
+  /* centraliza conteúdo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caixa-mensagem:hover {
+  background-color: #ffead0; /* cor ao passar o mouse */
+  transform: scale(1.02); /* animação sutil */
+}

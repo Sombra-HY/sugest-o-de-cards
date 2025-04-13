@@ -1,0 +1,65 @@
+/* Estilo geral da página */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6fa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Estilo da seção principal */
+section {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Título da pergunta */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+/* Título da seção de respostas */
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Lista de respostas finais */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #e3e8f0;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background: #d0d7e2;
+}
+
+/* Animação de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

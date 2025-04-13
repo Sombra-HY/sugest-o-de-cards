@@ -1,0 +1,10 @@
+
+.grid-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* força 2 colunas */
+  gap: 16px;
+  max-width: 600px;
+  /* opcional: para evitar que fique muito esticado */
+  margin: 0 auto;    /* centraliza o grid */
+}
+

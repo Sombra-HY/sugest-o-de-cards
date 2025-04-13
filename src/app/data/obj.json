@@ -1,0 +1,31 @@
+{
+  "quiz": [
+    {
+      "pergunta": "Qual cenário você prefere?",
+      "respostas": [
+        { "texto": "Uma floresta mágica", "tipo": "Fantasia", "pontos": 2 },
+        { "texto": "Uma cidade cheia de vilões", "tipo": "Ação", "pontos": 2 },
+        { "texto": "Uma escola maluca", "tipo": "Comédia", "pontos": 2 },
+        { "texto": "Um mundo desconhecido com muitos mistérios", "tipo": "Aventura", "pontos": 2 }
+      ]
+    },
+    {
+      "pergunta": "Qual desses personagens você gostaria de ser?",
+      "respostas": [
+        { "texto": "Um mago poderoso", "tipo": "Fantasia", "pontos": 2 },
+        { "texto": "Um herói com superpoderes", "tipo": "Ação", "pontos": 2 },
+        { "texto": "Um aluno que vive confusões engraçadas", "tipo": "Comédia", "pontos": 2 },
+        { "texto": "Um explorador destemido", "tipo": "Aventura", "pontos": 2 }
+      ]
+    },
+    {
+      "pergunta": "O que mais te prende em um desenho?",
+      "respostas": [
+        { "texto": "O universo cheio de magia", "tipo": "Fantasia", "pontos": 2 },
+        { "texto": "As lutas e batalhas épicas", "tipo": "Ação", "pontos": 2 },
+        { "texto": "As piadas e situações engraçadas", "tipo": "Comédia", "pontos": 2 },
+        { "texto": "As descobertas e reviravoltas", "tipo": "Aventura", "pontos": 2 }
+      ]
+    }
+  ]
+}
